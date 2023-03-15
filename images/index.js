@@ -1,0 +1,9 @@
+export { default as logo } from './logo.png';
+export { default as chatbot } from './chatbot.png';
+export { default as brand1 } from './brand1.png';
+export { default as brand2 } from './brand2.png';
+export { default as pic1 } from './pic1.jpg';
+export { default as pic2 } from './pic2.jpg';
+export { default as pic3 } from './pic3.jpg';
+export { default as pic4 } from './pic4.jpg';
+export { default as pic5 } from './pic5.jpg';

@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/*******************************************************************/
+.pulse-animation {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+    opacity: 0.7;
+    color: #1393F5;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulse-animation-white {
+  animation-name: pulse-white;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse-white {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+    opacity: 0.7;
+    color: white;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/*******************************************************************/
+
+/*******************************************************************/
+.thunder-animation {
+  animation-name: thunder;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes thunder {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    color: #1393F5;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+.thunder-animation-white {
+  animation-name: thunder-white;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes thunder-white {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+/*******************************************************************/
+
+/*******************************************************************/
+.bounce-animation {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+a:hover {
+  animation-name: bounce;
+  color: goldenrod !important;
+  outline: none !important;
+}
+/*******************************************************************/
